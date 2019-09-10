@@ -311,7 +311,7 @@ export function get_page_handler(
 				});
 
 				styles = Array.from(css_chunks)
-					.map(href => `<link rel="stylesheet" href="client/${href}">`)
+					.map(href => `<link rel="stylesheet" href="/client/${href}">`)
 					.join('')
 			} else {
 				styles = (css && css.code ? `<style>${css.code}</style>` : '');
