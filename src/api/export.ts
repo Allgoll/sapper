@@ -185,8 +185,7 @@ async function _export({
 				if (pathname !== '/service-worker-index.html') {
 					const cleaned = clean_html(body);
 
-					const base_match = /<base ([\s\S]+?)>/m.exec(cleaned);
-					const base_href = base_match && get_href(base_match[1]);
+					const base_href = '/';
 					const base = resolve(url.href, base_href);
 
 					let match;
