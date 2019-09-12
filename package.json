@@ -5,6 +5,9 @@
   "bin": {
     "sapper": "./sapper"
   },
+  "files": [
+    "*/**"
+  ],
   "directories": {
     "test": "test"
   },
