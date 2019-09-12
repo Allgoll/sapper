@@ -5,6 +5,9 @@
   "directories": {
     "test": "test"
   },
+   "bin": {
+    "sapper": "./sapper"
+  },
   "dependencies": {
     "html-minifier": "^4.0.0",
     "http-link-header": "^1.0.2",
